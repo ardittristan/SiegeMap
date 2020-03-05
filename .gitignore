@@ -1,3 +1,10 @@
+SiegeMaps/
+SiegeMapsFiles/
+SiegeMapsBackup/
+appbundle.*
+package-lock.json
+*.psd
+
 # Logs
 logs
 *.log

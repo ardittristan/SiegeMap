@@ -1,0 +1,27 @@
+{
+  "name": "siegemap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SiegeMap.js",
+  "scripts": {
+    "start": "beefy SiegeMap.js:appbundle.min.js --live",
+    "bundle": "browserify SiegeMap.js -o appbundle.js",
+    "update": "npm update --only=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardittristan/SiegeMap.git"
+  },
+  "author": "ardittristan",
+  "license": "ISC",
+  "devDependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^16.5.0"
+  },
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "leaflet-edgebuffer": "^1.0.6",
+    "leaflet-rastercoords": "^1.0.3",
+    "leaflet.control.layers.tree": "^1.0.0"
+  }
+}
