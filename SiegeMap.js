@@ -22,7 +22,8 @@ map.setMaxBounds([[21.4, -180], [85.35, 101.35]]);
 
 //* make all maps
 //#region 
-// bank
+//! bank
+//#region 
 var bankF1 = addLayer("/bank/bank-floor-1", 1000);
 var bankF2 = addLayer("/bank/bank-floor-2", 1000);
 var bankF3 = addLayer("/bank/bank-floor-3", 1000);
@@ -32,9 +33,11 @@ var bankO1 = new L.layerGroup([addOverlay("bank", 1), bankF1], { pane: 'tilePane
 var bankO2 = new L.layerGroup([addOverlay("bank", 2), bankF2], { pane: 'tilePane' });
 var bankO3 = new L.layerGroup([addOverlay("bank", 3), bankF3], { pane: 'tilePane' });
 var bankO4 = new L.layerGroup([addOverlay("bank", 4), bankF4], { pane: 'tilePane' });
+//#endregion
 
 
-// border
+//! border
+//#region 
 var borderF1 = addLayer("/border/border-floor-1", 1000);
 var borderF2 = addLayer("/border/border-floor-2", 1000);
 var borderF3 = addLayer("/border/border-floor-3", 1000);
@@ -42,9 +45,11 @@ var borderF3 = addLayer("/border/border-floor-3", 1000);
 var borderO1 = new L.layerGroup([addOverlay("border", 1), borderF1], { pane: 'tilePane' });
 var borderO2 = new L.layerGroup([addOverlay("border", 2), borderF2], { pane: 'tilePane' });
 var borderO3 = new L.layerGroup([addOverlay("border", 4), borderF3], { pane: 'tilePane' });
+//#endregion
 
 
-// chalet
+//! chalet
+//#region 
 var chaletF1 = addLayer("/chalet/chalet-floor-1", 1000);
 var chaletF2 = addLayer("/chalet/chalet-floor-2", 1000);
 var chaletF3 = addLayer("/chalet/chalet-floor-3", 1000);
@@ -54,9 +59,11 @@ var chaletO1 = new L.layerGroup([addOverlay("chalet", 1), chaletF1], { pane: 'ti
 var chaletO2 = new L.layerGroup([addOverlay("chalet", 2), chaletF2], { pane: 'tilePane' });
 var chaletO3 = new L.layerGroup([addOverlay("chalet", 3), chaletF3], { pane: 'tilePane' });
 var chaletO4 = new L.layerGroup([addOverlay("chalet", 4), chaletF4], { pane: 'tilePane' });
+//#endregion
 
 
-// clubhouse
+//! clubhouse
+//#region 
 var clubhouseF1 = addLayer("/clubhouse/clubhouse-floor-1", 1000);
 var clubhouseF2 = addLayer("/clubhouse/clubhouse-floor-2", 1000);
 var clubhouseF3 = addLayer("/clubhouse/clubhouse-floor-3", 1000);
@@ -66,9 +73,11 @@ var clubhouseO1 = new L.layerGroup([addOverlay("clubhouse", 1), clubhouseF1], { 
 var clubhouseO2 = new L.layerGroup([addOverlay("clubhouse", 2), clubhouseF2], { pane: 'tilePane' });
 var clubhouseO3 = new L.layerGroup([addOverlay("clubhouse", 3), clubhouseF3], { pane: 'tilePane' });
 var clubhouseO4 = new L.layerGroup([addOverlay("clubhouse", 4), clubhouseF4], { pane: 'tilePane' });
+//#endregion
 
 
-// coastline
+//! coastline
+//#region 
 var coastlineF1 = addLayer("/coastline/coastline-floor-1", 1000);
 var coastlineF2 = addLayer("/coastline/coastline-floor-2", 1000);
 var coastlineF3 = addLayer("/coastline/coastline-floor-3", 1000);
@@ -78,9 +87,11 @@ var coastlineO1 = new L.layerGroup([addOverlay("coastline", 1), coastlineF1], { 
 var coastlineO2 = new L.layerGroup([addOverlay("coastline", 2), coastlineF2], { pane: 'tilePane' });
 var coastlineO3 = new L.layerGroup([addOverlay("coastline", 3), coastlineF3], { pane: 'tilePane' });
 var coastlineO4 = new L.layerGroup([addOverlay("coastline", 4), coastlineF4], { pane: 'tilePane' });
+//#endregion
 
 
-// consulate
+//! consulate
+//#region 
 var consulateF1 = addLayer("/consulate/consulate-floor-1", 1000);
 var consulateF2 = addLayer("/consulate/consulate-floor-2", 1000);
 var consulateF3 = addLayer("/consulate/consulate-floor-3", 1000);
@@ -90,9 +101,11 @@ var consulateO1 = new L.layerGroup([addOverlay("consulate", 1), consulateF1], { 
 var consulateO2 = new L.layerGroup([addOverlay("consulate", 2), consulateF2], { pane: 'tilePane' });
 var consulateO3 = new L.layerGroup([addOverlay("consulate", 3), consulateF3], { pane: 'tilePane' });
 var consulateO4 = new L.layerGroup([addOverlay("consulate", 4), consulateF4], { pane: 'tilePane' });
+//#endregion
 
 
-// favela
+//! favela
+//#region 
 var favelaF1 = addLayer("/favela/favela-floor-1", 1000);
 var favelaF2 = addLayer("/favela/favela-floor-2", 1000);
 var favelaF3 = addLayer("/favela/favela-floor-3", 1000);
@@ -104,9 +117,11 @@ var favelaO2 = new L.layerGroup([addOverlay("favela", 2), favelaF2], { pane: 'ti
 var favelaO3 = new L.layerGroup([addOverlay("favela", 3), favelaF3], { pane: 'tilePane' });
 var favelaO4 = new L.layerGroup([addOverlay("favela", 4), favelaF4], { pane: 'tilePane' });
 var favelaO5 = new L.layerGroup([addOverlay("favela", 5), favelaF5], { pane: 'tilePane' });
+//#endregion
 
 
-// fortress
+//! fortress
+//#region 
 var fortressF1 = addLayer("/fortress/fortress-floor-1", 1000);
 var fortressF2 = addLayer("/fortress/fortress-floor-2", 1000);
 var fortressF3 = addLayer("/fortress/fortress-floor-3", 1000);
@@ -114,9 +129,11 @@ var fortressF3 = addLayer("/fortress/fortress-floor-3", 1000);
 var fortressO1 = new L.layerGroup([addOverlay("fortress", 1), fortressF1], { pane: 'tilePane' });
 var fortressO2 = new L.layerGroup([addOverlay("fortress", 2), fortressF2], { pane: 'tilePane' });
 var fortressO3 = new L.layerGroup([addOverlay("fortress", 3), fortressF3], { pane: 'tilePane' });
+//#endregion
 
 
-// hereford
+//! hereford
+//#region 
 var herefordF1 = addLayer("/hereford/hereford-floor-1", 1000);
 var herefordF2 = addLayer("/hereford/hereford-floor-2", 1000);
 var herefordF3 = addLayer("/hereford/hereford-floor-3", 1000);
@@ -128,9 +145,11 @@ var herefordO2 = new L.layerGroup([addOverlay("hereford", 2), herefordF2], { pan
 var herefordO3 = new L.layerGroup([addOverlay("hereford", 3), herefordF3], { pane: 'tilePane' });
 var herefordO4 = new L.layerGroup([addOverlay("hereford", 4), herefordF4], { pane: 'tilePane' });
 var herefordO5 = new L.layerGroup([addOverlay("hereford", 5), herefordF5], { pane: 'tilePane' });
+//#endregion
 
 
-// house
+//! house
+//#region 
 var houseF1 = addLayer("/house/house-floor-1", 1000);
 var houseF2 = addLayer("/house/house-floor-2", 1000);
 var houseF3 = addLayer("/house/house-floor-3", 1000);
@@ -140,9 +159,11 @@ var houseO1 = new L.layerGroup([addOverlay("house", 1), houseF1], { pane: 'tileP
 var houseO2 = new L.layerGroup([addOverlay("house", 2), houseF2], { pane: 'tilePane' });
 var houseO3 = new L.layerGroup([addOverlay("house", 3), houseF3], { pane: 'tilePane' });
 var houseO4 = new L.layerGroup([addOverlay("house", 4), houseF4], { pane: 'tilePane' });
+//#endregion
 
 
-// kafe
+//! kafe
+//#region 
 var kafeF1 = addLayer("/kafe/kafe-floor-1", 1000);
 var kafeF2 = addLayer("/kafe/kafe-floor-2", 1000);
 var kafeF3 = addLayer("/kafe/kafe-floor-3", 1000);
@@ -152,9 +173,11 @@ var kafeO1 = new L.layerGroup([addOverlay("kafe", 1), kafeF1], { pane: 'tilePane
 var kafeO2 = new L.layerGroup([addOverlay("kafe", 2), kafeF2], { pane: 'tilePane' });
 var kafeO3 = new L.layerGroup([addOverlay("kafe", 3), kafeF3], { pane: 'tilePane' });
 var kafeO4 = new L.layerGroup([addOverlay("kafe", 4), kafeF4], { pane: 'tilePane' });
+//#endregion
 
 
-// kanal
+//! kanal
+//#region 
 var kanalF1 = addLayer("/kanal/kanal-floor-1", 1000);
 var kanalF2 = addLayer("/kanal/kanal-floor-2", 1000);
 var kanalF3 = addLayer("/kanal/kanal-floor-3", 1000);
@@ -166,9 +189,11 @@ var kanalO2 = new L.layerGroup([addOverlay("kanal", 2), kanalF2], { pane: 'tileP
 var kanalO3 = new L.layerGroup([addOverlay("kanal", 3), kanalF3], { pane: 'tilePane' });
 var kanalO4 = new L.layerGroup([addOverlay("kanal", 4), kanalF4], { pane: 'tilePane' });
 var kanalO5 = new L.layerGroup([addOverlay("kanal", 5), kanalF5], { pane: 'tilePane' });
+//#endregion
 
 
-// oregon
+//! oregon
+//#region 
 var oregonF1 = addLayer("/oregon/oregon-floor-1", 1000);
 var oregonF2 = addLayer("/oregon/oregon-floor-2", 1000);
 var oregonF3 = addLayer("/oregon/oregon-floor-3", 1000);
@@ -180,9 +205,11 @@ var oregonO2 = new L.layerGroup([addOverlay("oregon", 2), oregonF2], { pane: 'ti
 var oregonO3 = new L.layerGroup([addOverlay("oregon", 3), oregonF3], { pane: 'tilePane' });
 var oregonO4 = new L.layerGroup([addOverlay("oregon", 4), oregonF4], { pane: 'tilePane' });
 var oregonO5 = new L.layerGroup([addOverlay("oregon", 5), oregonF5], { pane: 'tilePane' });
+//#endregion
 
 
-// outback
+//! outback
+//#region 
 var outbackF1 = addLayer("/outback/outback-floor-1", 1000);
 var outbackF2 = addLayer("/outback/outback-floor-2", 1000);
 var outbackF3 = addLayer("/outback/outback-floor-3", 1000);
@@ -192,9 +219,11 @@ var outbackO1 = new L.layerGroup([addOverlay("outback", 1), outbackF1], { pane: 
 var outbackO2 = new L.layerGroup([addOverlay("outback", 2), outbackF2], { pane: 'tilePane' });
 var outbackO3 = new L.layerGroup([addOverlay("outback", 3), outbackF3], { pane: 'tilePane' });
 var outbackO4 = new L.layerGroup([addOverlay("outback", 4), outbackF4], { pane: 'tilePane' });
+//#endregion
 
 
-// plane
+//! plane
+//#region 
 var planeF1 = addLayer("/plane/plane-floor-1", 1000);
 var planeF2 = addLayer("/plane/plane-floor-2", 1000);
 var planeF3 = addLayer("/plane/plane-floor-3", 1000);
@@ -204,9 +233,11 @@ var planeO1 = new L.layerGroup([addOverlay("plane", 1), planeF1], { pane: 'tileP
 var planeO2 = new L.layerGroup([addOverlay("plane", 2), planeF2], { pane: 'tilePane' });
 var planeO3 = new L.layerGroup([addOverlay("plane", 3), planeF3], { pane: 'tilePane' });
 var planeO4 = new L.layerGroup([addOverlay("plane", 4), planeF4], { pane: 'tilePane' });
+//#endregion
 
 
-// skyscraper
+//! skyscraper
+//#region 
 var skyscraperF1 = addLayer("/skyscraper/skyscraper-floor-1", 1000);
 var skyscraperF2 = addLayer("/skyscraper/skyscraper-floor-2", 1000);
 var skyscraperF3 = addLayer("/skyscraper/skyscraper-floor-3", 1000);
@@ -216,9 +247,11 @@ var skyscraperO1 = new L.layerGroup([addOverlay("skyscraper", 1), skyscraperF1],
 var skyscraperO2 = new L.layerGroup([addOverlay("skyscraper", 2), skyscraperF2], { pane: 'tilePane' });
 var skyscraperO3 = new L.layerGroup([addOverlay("skyscraper", 3), skyscraperF3], { pane: 'tilePane' });
 var skyscraperO4 = new L.layerGroup([addOverlay("skyscraper", 4), skyscraperF4], { pane: 'tilePane' });
+//#endregion
 
 
-// themepark
+//! themepark
+//#region 
 var themeparkF1 = addLayer("/themepark/themepark-floor-1", 1000);
 var themeparkF2 = addLayer("/themepark/themepark-floor-2", 1000);
 var themeparkF3 = addLayer("/themepark/themepark-floor-3", 1000);
@@ -226,9 +259,11 @@ var themeparkF3 = addLayer("/themepark/themepark-floor-3", 1000);
 var themeparkO1 = new L.layerGroup([addOverlay("themepark", 1), themeparkF1], { pane: 'tilePane' });
 var themeparkO2 = new L.layerGroup([addOverlay("themepark", 2), themeparkF2], { pane: 'tilePane' });
 var themeparkO3 = new L.layerGroup([addOverlay("themepark", 3), themeparkF3], { pane: 'tilePane' });
+//#endregion
 
 
-// tower
+//! tower
+//#region 
 var towerF1 = addLayer("/tower/tower-floor-1", 1000);
 var towerF2 = addLayer("/tower/tower-floor-2", 1000);
 var towerF3 = addLayer("/tower/tower-floor-3", 1000);
@@ -238,9 +273,11 @@ var towerO1 = new L.layerGroup([addOverlay("tower", 1), towerF1], { pane: 'tileP
 var towerO2 = new L.layerGroup([addOverlay("tower", 2), towerF2], { pane: 'tilePane' });
 var towerO3 = new L.layerGroup([addOverlay("tower", 3), towerF3], { pane: 'tilePane' });
 var towerO4 = new L.layerGroup([addOverlay("tower", 4), towerF4], { pane: 'tilePane' });
+//#endregion
 
 
-// villa
+//! villa
+//#region 
 var villaF1 = addLayer("/villa/villa-floor-1", 1000);
 var villaF2 = addLayer("/villa/villa-floor-2", 1000);
 var villaF3 = addLayer("/villa/villa-floor-3", 1000);
@@ -252,9 +289,11 @@ var villaO2 = new L.layerGroup([addOverlay("villa", 2), villaF2], { pane: 'tileP
 var villaO3 = new L.layerGroup([addOverlay("villa", 3), villaF3], { pane: 'tilePane' });
 var villaO4 = new L.layerGroup([addOverlay("villa", 4), villaF4], { pane: 'tilePane' });
 var villaO5 = new L.layerGroup([addOverlay("villa", 5), villaF5], { pane: 'tilePane' });
+//#endregion
 
 
-// yacht
+//! yacht
+//#region 
 var yachtF1 = addLayer("/yacht/yacht-floor-1", 1000);
 var yachtF2 = addLayer("/yacht/yacht-floor-2", 1000);
 var yachtF3 = addLayer("/yacht/yacht-floor-3", 1000);
@@ -266,6 +305,7 @@ var yachtO2 = new L.layerGroup([addOverlay("yacht", 2), yachtF2], { pane: 'tileP
 var yachtO3 = new L.layerGroup([addOverlay("yacht", 3), yachtF3], { pane: 'tilePane' });
 var yachtO4 = new L.layerGroup([addOverlay("yacht", 4), yachtF4], { pane: 'tilePane' });
 var yachtO5 = new L.layerGroup([addOverlay("yacht", 5), yachtF5], { pane: 'tilePane' });
+//#endregion
 //#endregion
 
 
